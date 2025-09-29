@@ -6,6 +6,11 @@ import tempfile
 from pathlib import Path
 import folder_paths
 
+# 版本信息
+VERSION = "1.0.0"
+
+print(f"[ArtX Tools] 插件版本: {VERSION}")
+
 
 class PathListNode:
     """列出ComfyUI相对路径下的所有目录和文件"""
@@ -29,11 +34,11 @@ class PathListNode:
     
     def list_path_content(self, relative_path):
         try:
-            print(f"[ArtX Tools] 开始处理路径: {relative_path}")
+            print(f"[ArtX Tools v{VERSION}] 开始处理路径: {relative_path}")
             
             # 获取ComfyUI基础路径
             base_path = folder_paths.base_path
-            print(f"[ArtX Tools] ComfyUI基础路径: {base_path}")
+            print(f"[ArtX Tools v{VERSION}] ComfyUI基础路径: {base_path}")
             
             # 构建完整路径
             full_path = os.path.join(base_path, relative_path)
@@ -124,8 +129,8 @@ class GitHubInstallerNode:
     
     def install_from_github(self, github_url, install_type):
         try:
-            print(f"[ArtX Tools] 开始GitHub安装: {github_url}")
-            print(f"[ArtX Tools] 安装类型: {install_type}")
+            print(f"[ArtX Tools v{VERSION}] 开始GitHub安装: {github_url}")
+            print(f"[ArtX Tools v{VERSION}] 安装类型: {install_type}")
             
             # 验证GitHub URL格式
             if not github_url.startswith("https://github.com/"):

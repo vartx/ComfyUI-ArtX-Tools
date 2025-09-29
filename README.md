@@ -1,5 +1,7 @@
 # ComfyUI ArtX Tools
 
+**版本: 1.0.0**
+
 一个简单实用的ComfyUI插件，提供models目录管理和GitHub安装功能。
 
 ## 功能特性
