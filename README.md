@@ -30,7 +30,7 @@
 
 ### GitHub安装器节点
 1. 添加 "🚀 GitHub安装器" 节点
-2. 输入GitHub仓库URL（如：`https://github.com/abculr/repository-name`）
+2. 输入GitHub仓库URL（如：`https://github.com/vartx/repository-name`）
 3. 选择安装类型：
    - `custom_nodes`: 安装ComfyUI插件
    - `models`: 安装模型文件

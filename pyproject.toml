@@ -14,8 +14,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/abculr/ComfyUI-ArtX-Tools"
-Repository = "https://github.com/abculr/ComfyUI-ArtX-Tools"
+Homepage = "https://github.com/vartx/ComfyUI-ArtX-Tools"
+Repository = "https://github.com/vartx/ComfyUI-ArtX-Tools"
 
 [build-system]
 requires = ["setuptools>=45", "wheel"]
