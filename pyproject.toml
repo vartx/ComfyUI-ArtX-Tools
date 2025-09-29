@@ -1,0 +1,22 @@
+[project]
+name = "ComfyUI-ArtX-Tools"
+version = "1.0.0"
+description = "ComfyUI插件：列出models目录并支持GitHub安装"
+authors = [
+    {name = "ArtX", email = "artx@example.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.25.0",
+    "gitpython>=3.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/abculr/ComfyUI-ArtX-Tools"
+Repository = "https://github.com/abculr/ComfyUI-ArtX-Tools"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
